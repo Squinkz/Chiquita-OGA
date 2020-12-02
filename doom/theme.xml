@@ -1,0 +1,13 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="system, basic, detailed, video, grid">
+  <text name="shortdescription" extra="true">
+   <text>1981  ·  32-BIT COMPUTER</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Players assume the role of a space marine, popularly known as Doomguy, fighting his way through hordes of invading demons from Hell.</text>
+  </text>
+ </view>
+</theme>

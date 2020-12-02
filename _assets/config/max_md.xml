@@ -1,0 +1,69 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- Detailed View -->
+	<view name="detailed, video">
+		
+		<!-- Metadata -->
+		<text name="md_lbl_genre, md_genre, md_lbl_releasedate, md_lbl_developer, md_developer">
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<forceUppercase>0</forceUppercase>
+			<color>404040</color>
+			<alignment>left</alignment>
+			<size>0.12 0.02</size>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<origin>0 0</origin>
+			<pos>0.51 0.74</pos>
+			<color>000000</color>
+			<fontSize>0.021</fontSize>
+		</text>
+		<text name="md_genre">
+			<origin>0 0</origin>
+			<pos>0.52 0.77</pos>
+			<fontSize>0.022</fontSize>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<origin>0 0</origin>
+			<pos>0.51 0.8</pos>
+			<color>000000</color>
+			<fontSize>0.021</fontSize>
+		</text>
+		<datetime name="md_releasedate">
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<color>404040</color>
+			<fontSize>0.022</fontSize>
+			<origin>0 0</origin>
+			<pos>0.52 0.83</pos>
+			<size>0.11 0.02</size>
+		</datetime>
+		
+		<text name="md_lbl_developer">
+			<origin>0 0</origin>
+			<pos>0.51 0.86</pos>
+			<color>000000</color>
+			<fontSize>0.021</fontSize>
+		</text>
+		<text name="md_developer">
+			<origin>0 0</origin>
+			<pos>0.52 0.89</pos>
+			<fontSize>0.022</fontSize>
+		</text>
+		
+		<!-- Description -->
+		<text name="md_description">
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.023</fontSize>
+			<color>404040</color>
+			<origin>0 0</origin>
+			<pos>0.645 0.734</pos>
+			<size>0.34 0.179</size>
+			<lineSpacing>1.35</lineSpacing>
+		</text>
+		
+	</view>
+	
+</theme>

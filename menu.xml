@@ -1,0 +1,82 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu">
+	
+		<menuText name="menutitle">
+			<fontPath>./_assets/Roboto-Bold.ttf</fontPath>
+			<fontSize>0.044</fontSize>
+			<color>FAFAFA</color>
+		</menuText>
+		
+		<menuText name="menufooter">
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>777777FF</color>
+		</menuText>
+		
+		<menuText name="menutext">
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>969696</color>
+			<separatorColor>96969610</separatorColor>
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+			<selectedColor>FFFFFF</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+		
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${baseColor}</color>
+		</menuTextSmall>
+		
+		<menuGroup name="menugroup">
+			<fontPath>./_assets/Roboto-Bold.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+			<color>ffffff</color>
+			<separatorColor>96969680</separatorColor>
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>2.0</lineSpacing>
+		</menuGroup>
+		
+		<menuBackground name="menubg">
+			<color>242424f2</color>
+			<cornerSize>32 32</cornerSize>
+			<path>./_assets/menu_bg.png</path>
+		</menuBackground>
+		
+		<menuIcons name="menuicons">
+			<iconKodi>./_assets/icons/Kodi.png</iconKodi>
+			<iconSystem>./_assets/icons/System.png</iconSystem>
+			<iconUpdates>./_assets/icons/Updates.png</iconUpdates>
+			<iconGames>./_assets/icons/Games.png</iconGames>
+			<iconControllers>./_assets/icons/Controllers.png</iconControllers>
+			<iconUI>./_assets/icons/UI.png</iconUI>
+			<iconSound>./_assets/icons/Sound.png</iconSound>
+			<iconNetwork>./_assets/icons/Network.png</iconNetwork>
+			<iconScraper>./_assets//icons/Scraper.png</iconScraper>
+			<iconAdvanced>./_assets//icons/Advanced.png</iconAdvanced>
+			<iconQuit>./_assets/icons/Quit.png</iconQuit>
+			<iconRestart>./_assets/icons/Restart.png</iconRestart>
+			<iconShutdown>./_assets/icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_assets/icons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./_assets/icons/Contest.png</iconRetroachievements>
+			<iconManual>./_assets/icons/Manual.png</iconManual>
+			<iconEmuelec>./_assets/icons/Emuelec.png</iconEmuelec>
+		</menuIcons>
+		
+		<menuTextEdit name="menutextedit">
+			<inactive>./_assets/textinput_ninepatch.png</inactive>
+			<active>./_assets/textinput_ninepatch_active.png</active>
+		</menuTextEdit>
+		
+		<menuButton name="menubutton">
+			<path>./_assets/textinput_ninepatch.png</path>
+			<filledPath>./_assets/textinput_ninepatch_active.png</filledPath>
+		</menuButton>
+		
+	</view>
+	
+</theme>

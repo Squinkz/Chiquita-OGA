@@ -1,0 +1,66 @@
+<!--
+Theme name:     Chiquita
+Author:         Dieter 'Squink' Stassen
+				(based on Chicuelo, by Nico La Rosa)
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see READ.ME for full details.
+-->
+
+<theme defaultView="video">
+	<formatVersion>7</formatVersion>
+	
+	<!-- Hide Controller Icon (unnecessary imo) -->
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<pos>1 1</pos>
+		</controllerActivity>
+	</view>
+	
+	<!-- Theme Color Options -->
+	<subset name="color" displayName="Theme Color">
+		<include name="red" displayName="Red">./_assets/config/colors/red.xml</include>
+		<include name="blue" displayName="Blue">./_assets/config/colors/blue.xml</include>
+		<include name="cyan" displayName="Cyan">./_assets/config/colors/cyan.xml</include>
+		<include name="green" displayName="Green">./_assets/config/colors/green.xml</include>
+		<include name="orange" displayName="Orange">./_assets/config/colors/orange.xml</include>
+		<include name="violet" displayName="Violet">./_assets/config/colors/violet.xml</include>
+		<include name="yellow" displayName="Yellow">./_assets/config/colors/yellow.xml</include>
+    </subset>
+	
+	<!-- Include metadata in Detailed/Video view -->
+	<subset name="metadata" displayName="Show Metadata" appliesTo="Detailed, Video">
+		<include name="md_show" displayName="All Metadata">./_assets/config/max_md.xml</include>
+		<include name="md_noShow" displayName="Only Description">./_assets/config/min_md.xml</include>
+	</subset>
+	
+	<!-- Show ratings in all views -->
+	<subset name="show ratings" displayName="Show Ratings" appliesTo="Detailed, Video, Grid, Tiles">
+		<include name="ratings_show" displayName="Yes">./_assets/config/ratings_show.xml</include>
+		<include name="ratings_noShow" displayName="No"></include>
+	</subset>
+		
+	<!-- Show titles in Grid/Tiles view -->
+	<subset name="show titles" displayName="Show Titles" appliesTo="Grid, Tiles">
+		<include name="tiles_show" displayName="Yes">./_assets/config/titles_show.xml</include>
+		<include name="tiles_noShow" displayName="No">./_assets/config/titles_noshow.xml</include>
+	</subset>
+	
+	<!-- Video delay on Games List -->
+	<subset name="video delay" displayName="Video Delay" appliesTo="Video, Grid, Tiles">
+		<include name="1s" displayName="1 second">./_assets/config/video_delay_1.xml</include>
+		<include name="2s" displayName="2 seconds">./_assets/config/video_delay_2.xml</include>
+		<include name="3s" displayName="3 seconds">./_assets/config/video_delay_3.xml</include>
+		<include name="0s" displayName="No Delay">./_assets/config/video_delay_0.xml</include>
+	</subset>
+	
+	<!-- Gamelist View -->
+	<include>./gameslist_view.xml</include>
+	
+	<!-- Menu Stuff -->
+	<include>./menu.xml</include>
+	
+	<!-- System View -->
+	<include>./system_view.xml</include>
+	
+</theme>

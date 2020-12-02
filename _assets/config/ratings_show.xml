@@ -1,0 +1,25 @@
+<theme defaultView="video">
+	<formatVersion>7</formatVersion>
+	
+	<view name="grid, detailed, video">
+	
+		<rating name="md_rating">
+			<origin>0 0</origin>
+			<pos>0.03 0.938</pos>
+			<size>0.55 0.038</size>
+			<color>ffffff</color>
+			<unfilledColor>ffffff80</unfilledColor>
+        </rating>
+		
+	</view>
+	
+	<view name="detailed, video">
+	
+		<rating name="md_rating">
+			<pos>0.51 0.94</pos>
+        </rating>
+		
+	</view>
+	
+</theme>
+

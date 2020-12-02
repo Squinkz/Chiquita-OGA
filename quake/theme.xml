@@ -1,0 +1,13 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="system, basic, detailed, video, grid">
+  <text name="shortdescription" extra="true">
+   <text>1981  ·  32-BIT COMPUTER</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The player takes the role of an unnamed protagonist who is sent into a portal in order to stop an enemy code-named "Quake".</text>
+  </text>
+ </view>
+</theme>

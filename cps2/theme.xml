@@ -1,0 +1,13 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="system, basic, detailed, video, grid">
+  <text name="shortdescription" extra="true">
+   <text>COIN OPERATED CABINET</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The CP System II or CPS-2 is an arcade system board that Capcom first used in 1993 for Super Street Fighter II.</text>
+  </text>
+ </view>
+</theme>

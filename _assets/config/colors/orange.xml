@@ -1,0 +1,9 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+		<baseColor>dd8800</baseColor>
+		<gradientEndColor>803F00</gradientEndColor>
+	</variables>
+	
+</theme>

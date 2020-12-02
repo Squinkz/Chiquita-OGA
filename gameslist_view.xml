@@ -1,0 +1,299 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- Basic View -->
+	<view name="basic">
+	
+		<!-- Hidden -->
+		<text name="shortdescription" extra="false">
+			<origin>0 0</origin>
+			<pos>1 1</pos>
+		</text>
+		
+		<!-- Hidden -->
+		<text name="longdescription" extra="false">
+			<origin>0 0</origin>
+			<pos>1 1</pos>
+		</text>
+		
+		<!-- Text Logo if no logo image -->
+		<text name="logoText">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.11</pos>
+			<maxSize>0.25 0.12</maxSize>
+			<alignment>center</alignment>
+			<fontSize>0.04</fontSize>
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<color>ffffff</color>
+		</text>
+			
+		<!-- Background -->
+		<image name="background" extra="true">
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./_assets/basic_bg.png</path>
+			<zIndex>0</zIndex>
+		</image>
+		
+		<!-- System Logo -->
+		<image name="logo" extra="true">
+			<path>./_assets/logos/${system.theme}.svg</path>
+			<color>ffffff</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.11</pos>
+			<alignment>center</alignment>
+			<maxSize>0.25 0.12</maxSize>
+		</image>
+		
+		<!-- Games List -->
+		<textlist name="gamelist">
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorImagePath>./_assets/empty.png</selectorImagePath>
+			<scrollSound>./_assets/se_sys_cursor.wav</scrollSound>
+			<selectedColor>${baseColor}</selectedColor>
+			<selectorHeight>.05</selectorHeight>
+			<primaryColor>dee0e8</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<alignment>center</alignment>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.125 0.22</pos>
+			<size>0.75 0.71</size>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.35</lineSpacing>
+			<horizontalMargin>0.037</horizontalMargin>
+			<lines>17</lines>
+		</textlist>
+		
+	</view>
+
+	<!-- Detailed/Video View -->
+	<view name="detailed, video">
+	
+		<!-- Background -->
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./_assets/gameslist_bg.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+		</image>
+		
+		<!-- Text Logo if no logo image -->
+		<text name="logoText">
+			<origin>0.5 0.5</origin>
+			<pos>0.251 0.11</pos>
+			<maxSize>0.25 0.12</maxSize>
+			<alignment>center</alignment>
+			<fontSize>0.04</fontSize>
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<color>ffffff</color>
+		</text>
+		
+		<!-- System Logo -->
+		<image name="logo" extra="true">
+			<path>./_assets/logos/${system.theme}.svg</path>
+			<color>ffffff</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.251 0.11</pos>
+			<maxSize>0.25 0.12</maxSize>
+		</image>
+		
+		<!-- Hidden -->
+		<text name="shortdescription" extra="true">
+			<pos>1 1</pos>
+		</text>
+		
+		<!-- Hidden -->
+		<text name="longdescription" extra="true">
+			<pos>1 1</pos>
+		</text>
+		
+		<!-- Games List -->
+		<textlist name="gamelist">
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorImagePath>./_assets/icon.png</selectorImagePath>
+			<scrollSound>./_assets/se_sys_cursor.wav</scrollSound>
+			<selectedColor>${baseColor}</selectedColor>
+			<selectorHeight>.05</selectorHeight>
+			<primaryColor>dee0e8</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.0 0.22</pos>
+			<size>0.5 0.71</size>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.35</lineSpacing>
+			<horizontalMargin>0.037</horizontalMargin>
+			<lines>17</lines>
+		</textlist>
+		
+		<!-- Help Menu -->
+		<helpsystem name="help">
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.021</fontSize>
+			<pos>0.054 0.975</pos>
+			<textColor>818181</textColor>
+			<iconColor>818181</iconColor>
+		</helpsystem>
+		
+	</view>
+	
+	<!-- Thumbnail for Detailed View -->
+	<view name="detailed">
+	
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.744 0.392</pos>
+			<maxSize>0.491 0.618</maxSize>
+		</image>
+	
+	</view>
+	
+	<!-- Video Box -->
+	<feature supported="video">
+		<view name="video">
+			<video name="md_video">
+				<origin>0.5 0.5</origin>
+				<pos>0.744 0.392</pos>
+				<effect>none</effect>
+				<maxSize>0.491 0.618</maxSize>
+				<delay>${vdelay}</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>true</showSnapshotDelay>
+				<loops>1</loops>
+			</video>
+		</view>
+	</feature>
+	
+	<!-- Grid View -->
+	<view name="grid">
+	
+		<!-- Hidden -->
+		<text name="shortdescription" extra="true">
+			<pos>1 1</pos>
+		</text>
+		
+		<!-- Hidden -->
+		<text name="longdescription" extra="true">
+			<pos>1 1</pos>
+		</text>
+	
+		<!-- Background -->
+		<image name="background" extra="true">
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./_assets/grid_bg.png</path>
+			<zIndex>0</zIndex>
+		</image>
+	
+		<imagegrid name="gamegrid">
+			<margin>0.005 0.01</margin>
+			<pos>0.02 0.135</pos>
+			<size>.96 0.79</size>
+			<padding>0.005 0.1 0.005 0.05</padding>
+			<autoLayout>5 3</autoLayout>
+			<autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+			<animateSelection>false</animateSelection>
+			<centerSelection>false</centerSelection>
+			<scrollSound>./_assets/se_sys_cursor.wav</scrollSound>
+			<maxlength>.001</maxlength>
+			<zIndex>1</zIndex>
+			<showVideoAtDelay>${vdelaygrid}</showVideoAtDelay>
+		</imagegrid>
+		
+		<gridtile name="default">
+			<backgroundColor>f8f8f800</backgroundColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>3 3</padding>
+			<imageColor>FFFFFFff</imageColor>
+		</gridtile>
+		
+		<gridtile name="selected">
+			<backgroundCenterColor>ffffff00</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<imageColor>${baseColor}</imageColor>
+		</gridtile>
+		
+		<ninepatch name="gridtile.background:selected">
+			<animateColor>00000000</animateColor>
+			<animateColorTime>2000</animateColorTime>
+		</ninepatch>
+		
+		<image name="head" extra="true">
+			<size>1 0.2171875</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./_assets/grid_bg_head.png</path>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<!-- Text Logo if no logo image -->
+		<text name="logoText">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.11</pos>
+			<maxSize>0.25 0.12</maxSize>
+			<alignment>center</alignment>
+			<fontSize>0.04</fontSize>
+			<fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+			<color>ffffff</color>
+			<zIndex>3</zIndex>
+		</text>
+		
+		<!-- System Logo -->
+		<image name="logo" extra="true">
+			<path>./_assets/logos/${system.theme}.svg</path>
+			<color>ffffff</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.11</pos>
+			<alignment>center</alignment>
+			<maxSize>0.25 0.12</maxSize>
+			<zIndex>3</zIndex>
+		</image>
+	
+	</view>
+	
+	<!-- Tile View -->
+	<customView name="Tiles" inherits="grid">
+	
+		<imagegrid name="gamegrid">
+			<margin>0.00 0.0</margin>
+			<pos>0.02 0.135</pos>
+			<size>.96 0.79</size>
+			<padding>0.005 0.1 0.005 0.05</padding>
+			<autoLayout>5 3</autoLayout>
+			<autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+			<animateSelection>false</animateSelection>
+			<centerSelection>false</centerSelection>
+			<scrollSound>./_assets/se_sys_cursor.wav</scrollSound>
+			<zIndex>1</zIndex>
+			<showVideoAtDelay>${vdelaygrid}</showVideoAtDelay>
+			<imageSource>image</imageSource>
+		</imagegrid>
+		
+		<gridtile name="default">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>4 4</padding>
+			<imageColor>FFFFFFc4</imageColor>
+			<imageSizeMode>minSize</imageSizeMode>
+		</gridtile>
+		
+		<gridtile name="selected">
+			<backgroundCenterColor>ffffff00</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<imageColor>${baseColor}</imageColor>
+		</gridtile>
+		
+		<ninepatch name="gridtile.background:selected">
+			<animateColor>00000000</animateColor>
+			<animateColorTime>2000</animateColorTime>
+		</ninepatch>
+	
+	</customView>
+	
+</theme>

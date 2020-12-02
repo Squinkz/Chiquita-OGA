@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- Detailed View -->
+	<view name="detailed, video">
+		
+		<!-- Description -->
+		<text name="md_description">
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.023</fontSize>
+			<color>404040</color>
+			<origin>0.0 0.0</origin>
+			<pos>0.51 0.734</pos>
+			<size>0.48 0.179</size>
+			<lineSpacing>1.35</lineSpacing>
+		</text>
+	</view>
+	
+</theme>

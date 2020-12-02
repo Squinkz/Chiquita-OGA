@@ -1,0 +1,66 @@
+<theme defaultView="video">
+	<formatVersion>7</formatVersion>
+	
+	<!-- Grid View -->
+	<view name="grid">
+		
+		<text name="gridtile">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<color>ffffff00</color>
+			<backgroundColor>ffffff00</backgroundColor>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+			<size>1 0.24</size>
+			<singleLineScroll>false</singleLineScroll>
+			<glowColor>24283100</glowColor>
+			<glowSize>1</glowSize>
+		</text>
+		
+		<text name="gridtile:selected">
+			<color>ffffff00</color>
+			<glowColor>00000000</glowColor>
+			<glowSize>2</glowSize>
+		</text>
+		
+		<gridtile name="selected">
+			<backgroundCenterColor>ffffff00</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<imageColor>${baseColor}</imageColor>
+		</gridtile>
+		
+	</view>
+	
+	<!-- Tile View -->
+	<customView name="Tiles" inherits="grid">
+		
+		<text name="gridtile">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../Roboto-Medium.ttf</fontPath>
+			<color>ffffff00</color>
+			<backgroundColor>ffffff00</backgroundColor>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+			<size>1 0.24</size>
+			<singleLineScroll>false</singleLineScroll>
+			<glowColor>24283100</glowColor>
+			<glowSize>1</glowSize>
+			<size>0 0.25</size>
+			<padding>0 0</padding>
+		</text>
+		
+		<text name="gridtile:selected">
+			<color>ffffff00</color>
+			<glowColor>00000000</glowColor>
+			<glowSize>2</glowSize>
+		</text>
+		
+		<gridtile name="selected">
+			<backgroundCenterColor>ffffff00</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<imageColor>${baseColor}</imageColor>
+		</gridtile>
+		
+	</customView>
+	
+</theme>

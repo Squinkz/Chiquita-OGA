@@ -1,0 +1,8 @@
+
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<vdelay>0.01</vdelay>
+		<vdelaygrid>10</vdelaygrid>
+	</variables>
+</theme>
